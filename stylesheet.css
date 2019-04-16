@@ -1,21 +1,175 @@
-.nav{}
+body{
+    margin: 0px;
+    font-family: 'Noto Serif TC', serif;
 
-.nav-button{}
+    background-color: #f7f6f1;
+}
 
-.nav-title{}
+.nav{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    width: 99vw;
+    border-bottom-right-radius: 275px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1544700388-5fd3fbd2fd97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
 
-.app-name{}
+    color: white;
+}
 
-.cheif{}
+.nav-button{
+    display: flex;
+    justify-content: space-between; 
+}
 
-.name{}
+button{
+   background-color: inherit;
+   border: none;
+}
 
-.photo{}
+.menu-lines{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 14px; 
+    padding-top: 16px;
+    padding-left: 16px;
+  }
+  
+  .s-line,.l-line,.m-line{
+    border-bottom: 1px solid white;
+  }
+  
+  .s-line{
+    width: 13px
+  }
+  
+  .m-line{
+    width: 23px;
+  }
+  
+  .menu-dots{
+    display: flex;
+    justify-content: space-between;
+    width: 30px; 
+    padding-top: 16px;
+    padding-right: 16px;
+  }
+  
+  .dot,.f-dot{
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    
+    background-color: white;
+  }
 
-.search{}
+  .f-dot{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  }
 
-.address{}
+.nav-title{
+    display: flex;
+    padding-left: 28px;
+    flex-direction: column;
+    margin-bottom: 28px;
+}
 
-.map{}
+.app-name{
+    font-size: 40px;
+}
 
-.{}
+
+.Name{
+    font-style: italic;
+}
+
+.photo{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    right: 19px;
+    bottom: 2px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100px;
+    background-image: url("https://images.unsplash.com/photo-1531908092336-417f2333f254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=641&q=80");
+}
+
+.search{
+    display: flex; 
+    justify-content: center;  
+    padding-top: 40px;  
+    padding-bottom: 40px;
+}
+
+input{
+    height: 30px;
+    width: calc(100% - 56px);
+    border: none;
+    -webkit-box-shadow: 0px 2px 15px 0px rgba(184,184,184,0.2);
+    -moz-box-shadow: 0px 2px 15px 0px rgba(184,184,184,0.2);
+    box-shadow: 0px 2px 15px 0px rgba(184,184,184,0.2);
+}
+
+.chef-fav{
+    display: flex;
+    justify-content: center;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 16px;
+    width: calc(100% - 56px);
+}
+
+
+
+.restaurant{
+    width: 45vw;
+    height: 32vh;
+    background-image: url("https://images.unsplash.com/photo-1428515613728-6b4607e44363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+}
+
+.restaurant-info{
+   width: 45vw;
+   height: 15vh;
+
+    background-color: white;
+}
+
+
+.map{
+    width: 45vw;
+    height: 47vh;
+    background-image: url("https://www.citymetric.com/sites/default/files/styles/nodeimage/public/article_2019/02/geohead.png?itok=Ynsd3ApD");
+    background-size: cover;
+}
+
+
+
+
+/*mobile*/
+
+@media screen and (max-width: 600px) {
+.nav{
+    background-image: url("https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMjU4fQ&auto=format&fit=crop&w=634&q=80");
+}
+
+.photo{
+    height: 85px;
+    width: 85px;
+    right: 30px;
+    bottom: 40px;
+}
+
+}
