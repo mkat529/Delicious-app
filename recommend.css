@@ -1,3 +1,34 @@
-div{
-    color: blueviolet;
+
+
+.mobile-back{
+    display: none;
+}
+
+.title-bar{
+    display: flex;
+
+}
+
+.title{
+    font-size: 40px;
+}
+
+.photo{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100px;
+    background-image: url("https://images.unsplash.com/photo-1531908092336-417f2333f254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=641&q=80");
+}
+
+.nav-bar{
+    display: flex;
+}
+
+
+
+.mobile-menu{
+display: none;
 }
