@@ -13,7 +13,7 @@ body{
     justify-content: space-between;
     margin-bottom: 20px;
     margin-right: 10px;
-    margin-left: 10px  
+    margin-left: 10px; 
 }
 
 .title{
@@ -35,7 +35,7 @@ body{
     justify-content: space-between;
     margin-bottom: 20px;
     margin-right: 10px;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 .slt-card{
@@ -46,7 +46,10 @@ body{
     align-self: center;
     margin-bottom: 20px;
     margin-right: 10px;
-    margin-left: 10px
+    margin-left: 10px;
+    -webkit-box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
+-moz-box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
+box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
 }
 
 .slt-photo{
@@ -93,6 +96,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 
 .cards{
@@ -107,6 +111,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    -webkit-box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
+-moz-box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
+box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
 }
 
 .l-photo{
@@ -123,6 +130,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    -webkit-box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
+    -moz-box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
+    box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
 }
 
 .main-photo{
@@ -139,6 +149,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    -webkit-box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
+-moz-box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
+box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
 }
 
 .r-photo{
@@ -163,6 +176,7 @@ display: none;
 @media screen and (max-width: 600px) {
 .mobile-back{
     display: block;
+    color: black;
 }
 
 .mobile-menu{
