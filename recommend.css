@@ -99,7 +99,7 @@ box-shadow: 1px 6px 73px -19px rgba(0,0,0,0.32);
     margin-bottom: 20px;
 }
 
-.cards{
+.cards,.m-cards{
     display: flex;
     justify-content: space-between;
     align-self: flex-start;
@@ -195,7 +195,15 @@ display: none;
     height: 37vh;
 }
 
+.card{
+    width: 83vw;
+}
+
 .main-photo{
     width: 53vw;
+}
+
+.m-cards{
+    width: 49vw;
 }
 }
